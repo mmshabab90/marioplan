@@ -8,7 +8,7 @@ const ProjectDetails = (props) => {
       <div className="card z-depth-0">
         <div className="card-content">
           <span className="card-title">Project title [ID: {id}]</span>
-          <p className="flow-text">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra
             vel turpis nunc eget. Faucibus in ornare quam viverra orci sagittis.

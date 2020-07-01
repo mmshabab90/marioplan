@@ -13,13 +13,21 @@ export default class SignedInLinks extends Component {
             MS
           </NavLink>
         </li>
+
+        <li>
+          <NavLink to="/dashboard">
+            <i className="left material-icons">dashboard</i> Dashboard
+          </NavLink>
+        </li>
+
         <li>
           <NavLink to="/new-project">
             <i className="left material-icons">library_add</i> New Project
           </NavLink>
         </li>
+
         <li>
-          <NavLink to="/">
+          <NavLink to="/signin">
             <i className="left material-icons">lock_outline</i> Sign Out
           </NavLink>
         </li>
